@@ -1,0 +1,21 @@
+{
+  "name": "arabic-gba-glyphs",
+  "version": "1.0.0",
+  "description": "Arabic glyph pipeline for GBA tile fonts: generator, shaper, generated bitmap, codepoint map and width table.",
+  "type": "module",
+  "scripts": {
+    "build": "node build_rooyin.mjs",
+    "test": "node -e \"import('./ar_shape.mjs').then(() => console.log('ar_shape loaded successfully'))\""
+  },
+  "keywords": [
+    "gba",
+    "gameboy-advance",
+    "arabic",
+    "localization",
+    "romhacking",
+    "pixel-font",
+    "glyphs"
+  ],
+  "author": "gn754061-design",
+  "license": "MIT"
+}
